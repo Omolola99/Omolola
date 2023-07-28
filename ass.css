@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Pacifico&family=Playfair+Display:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'pacifico', cursive;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-size: 3rem;
+    color: #fff; 
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+.video-container{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+.container .Btn{
+    position: absolute;
+    top: 500px;
+    left: 45%;
+    transform: translate(-50% -50%);
+    background-color: #fff;
+    border-color:#fff;
+    font-weight:700;
+    border-radius:300px ;
+    color: #000;
+    font-family: 'pacifico', cursive;
+    font-size: 1.2rem;
+    padding: 1.2rem 2rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+}
+.container .Btn:hover{
+    background-color: rgba(148, 196, 37, 0.973);
+    transform: scale(1.1);
+}
+
+
+    
+
+@media(max-aspect-ratio: 16/9){
+    .video-container{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio: 16/9){
+    .video-container{
+        width: auto;
+        height: 100%;
+    }
+}
