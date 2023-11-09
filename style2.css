@@ -1,0 +1,162 @@
+.top {
+    background-color: white; 
+    padding: 50px 150px; 
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+img {
+    padding-left: 156px;
+}
+.left {
+    margin-top: 50px;
+}
+.left h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: normal;
+    width: 396px;
+    text-align: start;
+    color: #034979;
+}
+.right{
+    display: flex;
+    position: relative;
+    width: 724px;
+    height: 976px;
+    margin-left: 620px;
+    border-radius: 50px;
+
+}
+
+.ctr .right{
+    bottom: 470px;
+}
+.right .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 776px;
+    width: 824px;
+    top: 24px;
+    left: 520px;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+    font-weight: bold;
+    border-radius: 43.85px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 16px 26px rgba(0, 0, 0, .1);
+}
+.right .form input {
+    width: 684px;
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 8px, 17px, 8px, 17px;
+    height: 58px;
+    line-height: 16px;
+    border: 1px solid black;
+    color: #8a8f97;
+    background: #e6f6fa;
+}
+.right .form .ptag{
+    position: relative;
+    margin-left: 20px;
+    border: #03466E 2px;
+}
+.right .form input:focus {
+    border: 1px solid #1d9bf0;
+}
+
+.right .form .Login {
+    border: none;
+    background-color:#03304b;
+    border-radius: 14.03px;
+    font-size: 20px;
+    line-height: 48px; 
+    padding: 8.77px 17.54px 8.77px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 441px;
+}
+ .Log span{
+    position: absolute;
+    right: 15px;
+    top: 50px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #1E1E1E;
+    cursor: pointer;
+}
+.right .split{
+    color: transparent;
+    display: block;
+    justify-content: space-between;
+    gap: 27px;
+}
+
+.split button img{
+    width: 25px;
+    margin-right: 10px ;
+    padding: 0 16px;
+}
+.split button{
+    width: 441px;
+}
+ 
+.right .form .Create {
+    border: 1px solid #999;
+    background: transparent;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 48px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.right .form a {
+    color: #1877f2;
+    text-decoration: none;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.form h1{
+    color: #03466E;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700px;
+    line-height: 52.62px;
+    font-size: 35.08px;
+}
+.form .log p{
+    color: #1E1E1E;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500px;
+}
+.right .have1{
+    display: flex;
+    justify-content: space-between;
+    gap: 425px;
+}
+.right .have1 p{
+    color: #7debfa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 26 31px;
+    font-size: 17.54px;
+    font-weight: 500px;
+}
+.right hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    color: tomato;
+    border-width: 1px;
+}
